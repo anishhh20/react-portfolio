@@ -1,0 +1,45 @@
+.scrolltop{
+    position: fixed;
+    right: 2.5rem;
+    bottom: -20%;
+    background-color: var(--button-bg-color) !important;
+    opacity: 0.8;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    z-index: 10;
+    transition: .5s;
+    display: inline-flex;
+}
+
+.scrolltop-icon{
+    display: inline-flex;
+    animation: scrolltop-icon 2s ease infinite !important;
+    font-size: 1.5rem;
+    color: var(--background-color);
+    padding: .4rem 0 .2rem 0;
+}
+
+.show-scroll{
+    bottom: 3rem;
+    transition: all 0.3s ease-in-out;
+}
+
+@keyframes scrolltop-icon {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-.2rem);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .scrolltop{
+        right: 1.5rem;
+        padding: 0.25rem 0.4rem;
+    }
+    .scrolltop-icon{
+        font-size: 1.25rem;
+    }
+}
