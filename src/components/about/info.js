@@ -45,7 +45,7 @@ const Info = () => {
             <div className="about__box" data-aos="zoom-in">
                   <i className='bx bxs-camera about__icon'></i>
                   <h3 className="about__title">Photographer</h3>
-                  <span className="about__subtitle about__link">View<i class='bx bx-link about__link button__icon '></i></span>
+                  <span className="about__subtitle about__link">View{" "}<i class='bx bx-images button__icon'></i> </span>
             </div>
           </a>
 
@@ -55,11 +55,14 @@ const Info = () => {
 
         <div className='photographer__box' id="photographer__box">
 
-
           <h2 className="section__title text-center">Photograph's</h2>
           <span className='section__subtitle text-center'>Clicked By me</span>
 
           <i className="uil uil-times photographer__box-close button__icon" onClick={() => toggleTab(0)} id="about__close"></i>
+
+          <a href="#about__close">
+            <i className="uil uil-angle-up photographer__box-top button__icon "></i>
+          </a>
 
           <Gallery images={images} enableImageSelection= {false} rowHeight={480} margin={30} /> 
         </div>

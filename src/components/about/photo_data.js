@@ -33,11 +33,9 @@ export const images = [
 
     {
       src: photo1,
-      caption: "After Rain (Jeshu John - designerspics.com)",
    },
    {
       src: photo2,
-      alt: "Boats (Jeshu John - designerspics.com)",
    },
 
    {
@@ -45,11 +43,9 @@ export const images = [
    },
    {
       src: photo4,
-      caption: "After Rain (Jeshu John - designerspics.com)",
    },
    {
       src: photo5,
-      alt: "Boats (Jeshu John - designerspics.com)",
    },
 
    {
@@ -57,11 +53,9 @@ export const images = [
    },
    {
       src: photo7,
-      caption: "After Rain (Jeshu John - designerspics.com)",
    },
    {
       src: photo8,
-      alt: "Boats (Jeshu John - designerspics.com)",
    },
 
    {
@@ -69,11 +63,9 @@ export const images = [
    },
    {
       src: photo10,
-      caption: "After Rain (Jeshu John - designerspics.com)",
    },
    {
       src: photo11,
-      alt: "Boats (Jeshu John - designerspics.com)",
    },
 
    {
@@ -81,11 +73,9 @@ export const images = [
    },
    {
       src: photo13,
-      caption: "After Rain (Jeshu John - designerspics.com)",
    },
    {
       src: photo14,
-      alt: "Boats (Jeshu John - designerspics.com)",
    },
 
    {
@@ -93,11 +83,9 @@ export const images = [
    },
    {
       src: photo16,
-      caption: "After Rain (Jeshu John - designerspics.com)",
    },
    {
       src: photo17,
-      alt: "Boats (Jeshu John - designerspics.com)",
    },
 
    {
@@ -105,11 +93,9 @@ export const images = [
    },
    {
       src: photo19,
-      caption: "After Rain (Jeshu John - designerspics.com)",
    },
    {
       src: photo20,
-      alt: "Boats (Jeshu John - designerspics.com)",
    },
 
    {
@@ -117,11 +103,9 @@ export const images = [
    },
    {
       src: photo22,
-      caption: "After Rain (Jeshu John - designerspics.com)",
    },
    {
       src: photo23,
-      alt: "Boats (Jeshu John - designerspics.com)",
    },
 
    {
@@ -129,11 +113,9 @@ export const images = [
    },
    {
       src: photo25,
-      caption: "After Rain (Jeshu John - designerspics.com)",
    },
    {
       src: photo26,
-      alt: "Boats (Jeshu John - designerspics.com)",
    },
 
    {
@@ -141,15 +123,12 @@ export const images = [
    },
    {
       src: photo28,
-      caption: "After Rain (Jeshu John - designerspics.com)",
    },
    {
       src: photo29,
-      alt: "Boats (Jeshu John - designerspics.com)",
    },
    {
       src: photo30,
-      alt: "Boats (Jeshu John - designerspics.com)",
    },
 
 ]

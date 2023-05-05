@@ -106,6 +106,15 @@
     animation: none !important;
 }
 
+.photographer__box .photographer__box-top {
+    position: fixed;
+    right: 5.2%;
+    bottom: 8%;
+    color: var(--section-title);
+    animation: none !important;
+    font-size: 1.2rem;
+}
+
 .active_photographer-box {
     visibility: visible;
 }
@@ -159,6 +168,10 @@
     [data-testid="grid-gallery-item_thumbnail"] {
         max-height: 30% !important;
     }
+    .photographer__box {
+        left: 1rem !important;
+        right: 1rem;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -189,6 +202,8 @@
     .about__description{
         padding: 1rem !important;
     }
+    
+
 }
 
 

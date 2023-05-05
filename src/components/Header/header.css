@@ -36,6 +36,7 @@
 
 .nav__link:hover,.nav__logo:hover{
     color: var(--dark-color);
+    font-weight: 600;
 }
 
 
