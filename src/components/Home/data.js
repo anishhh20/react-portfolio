@@ -29,7 +29,7 @@ const Data = () => {
 
         <p className='home__description'>I’m a creative designer, and I’m very passionate and dedicated to my work.</p>
 
-        <a href='#contact' className='btn button'>Say Hello{" "}<i className='bx bx-send button__icon' ></i></a>
+        <a href='#Contact - Section' className='btn button'>Say Hello{" "}<i className='bx bx-send button__icon' ></i></a>
 
     </div>
 

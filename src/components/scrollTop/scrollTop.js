@@ -11,7 +11,7 @@ const ScrollTop = () => {
         scrollTop.classList.add("show-scroll");
       }            
       else {
-          scrollTop.classList.remove("show-scroll");
+        scrollTop.classList.remove("show-scroll");
       }
 
   })

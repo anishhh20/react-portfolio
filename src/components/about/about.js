@@ -10,7 +10,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 const About = () => {
   return (
     
-    <section className="about section" id="about">
+    <section className="about section" id="About - Section">
 
         <h2 className="section__title text-center" data-aos="fade-up">About Me</h2>
 

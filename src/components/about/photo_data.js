@@ -28,10 +28,71 @@ import photo27 from "../../assests/photos/26.jpg";
 import photo28 from "../../assests/photos/27.jpg";
 import photo29 from "../../assests/photos/28.jpg";
 import photo30 from "../../assests/photos/29.jpg";
+import photo31 from "../../assests/photos/30.jpg";
+import photo32 from "../../assests/photos/31.jpg";
+import photo33 from "../../assests/photos/32.jpg"; 
+import photo34 from "../../assests/photos/33.jpg";
+import photo35 from "../../assests/photos/34.jpg";
+import photo36 from "../../assests/photos/35.jpg";
+import photo37 from "../../assests/photos/36.jpg";
+import photo38 from "../../assests/photos/37.jpg";
+import photo39 from "../../assests/photos/38.jpg";
+import photo40 from "../../assests/photos/39.jpg";
+import photo41 from "../../assests/photos/40.jpg";
+import photo42 from "../../assests/photos/41.jpg";
+import photo43 from "../../assests/photos/42.jpg";
+import photo44 from "../../assests/photos/43.jpg";
 
 export const images = [
 
-    {
+   {
+      src: photo32,
+   },
+   {
+      src: photo33,
+   },
+   {
+      src: photo34,
+   },
+
+   {
+      src: photo35,
+   },
+   {
+      src: photo36,
+   },
+   {
+      src: photo37,
+   },
+
+   {
+      src: photo38,
+   },
+   {
+      src: photo39,
+   },
+   {
+      src: photo40,
+   },
+
+   {
+      src: photo41,
+   },
+   {
+      src: photo42,
+   },
+   {
+      src: photo43,
+   },
+
+   {
+      src: photo44,
+   },
+      
+   {
+      src: photo31,
+   },
+   {
       src: photo1,
    },
    {

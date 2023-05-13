@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Social from './social'
 import Data from './data'
 import ScrollDown from './scrollDown'
@@ -10,7 +10,9 @@ function Home() {
 
     <>
 
-      <section className="home section" id="home">
+      <section id="top"></section>
+
+      <section className="home section" id="Home - Section">
 
         <div className="home__container container grid">
 

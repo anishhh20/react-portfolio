@@ -12,7 +12,7 @@ const Qualification = () => {
 
   return (
     
-    <section className="qualification section" id="qualification">
+    <section className="qualification section" id="Qualification - Section">
 
         <h2 className="section__title text-center" data-aos="fade-up">Qualification</h2>
 

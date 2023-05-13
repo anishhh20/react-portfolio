@@ -1,3 +1,6 @@
+#top {
+    padding: 0.8rem 0 !important;
+}
 .home__container{
     display: grid;
     row-gap: 7rem;

@@ -5,7 +5,7 @@ import Folderss from './folderss'
 const Project = () => {
   return (
     
-    <section className="projects section" id="projects">
+    <section className="projects section" id="Projects - Section">
 
       <h2 className="section__title text-center" data-aos="fade-up">Project's</h2>
 

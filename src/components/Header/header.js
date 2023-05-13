@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './header.css'
 
-import $ from 'jquery';
+import $, { contains } from 'jquery';
 
 
 const Header = () => {
@@ -32,10 +32,14 @@ const Header = () => {
 
   window.onscroll = function() {
 
+    //active each section in navbar when we scroll to it and update the page title
     $('section').each(function () {
         if($(this).position().top <= $(document).scrollTop()+10 && ($(this).position().top+10 + $(this).outerHeight()) > $(document).scrollTop()+10) {
-            console.log($(this).attr('id'));
+            document.title = $(this).attr('id');
             setActiveNav("#"+$(this).attr('id'));
+            if($(this).attr('id') === "top"){
+              document.title = "Anish Teli | Portfolio"
+            }
         }
     });
     
@@ -65,42 +69,42 @@ const Header = () => {
 
 
   return (
-    
+
     <header className="header" id="header">
 
       <nav className="nav container navbar" id="navbar" >
 
-        <a href="#home" className="nav__logo">Portfo<span className="lio">lio</span></a>
+        <a href="#" className="nav__logo">Portfo<span className="lio">lio</span></a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"} id="box">
           <ul className='nav__list grid' >
 
             <li className="nav__item" >
-              <a href="#home" className={activeNav === '#home' ? "nav__link active-link" : "nav__link"} onClick={() => {setActiveNav('#home'); showMenu(false)}} >
+              <a href="#Home - Section" className={activeNav === '#Home - Section' ? "nav__link active-link" : "nav__link"} onClick={() => {setActiveNav('#home'); showMenu(false)}} >
                 <i className="uil uil-estate nav__icon"></i>Home
               </a>
             </li>
 
             <li className="nav__item" >
-              <a href="#about" className={activeNav === '#about' ? "nav__link active-link" : "nav__link"} onClick={() => {setActiveNav('#about'); showMenu(false)}}>
+              <a href="#About - Section" className={activeNav === '#About - Section' ? "nav__link active-link" : "nav__link"} onClick={() => {setActiveNav('#about'); showMenu(false)}}>
                 <i className="uil uil-user nav__icon"></i>About
               </a>
             </li>
 
             <li className="nav__item" >
-              <a href="#qualification" className={activeNav === '#qualification' ? "nav__link active-link" : "nav__link"} onClick={() => {setActiveNav('#qualification'); showMenu(false)}}>
+              <a href="#Qualification - Section" className={activeNav === '#Qualification - Section' ? "nav__link active-link" : "nav__link"} onClick={() => {setActiveNav('#qualification'); showMenu(false)}}>
                 <i className="uil uil-briefcase-alt nav__icon"></i>Qualification
               </a>
             </li>
 
             <li className="nav__item" >
-              <a href="#projects" className={activeNav === '#projects' ? "nav__link active-link" : "nav__link"} onClick={() => {setActiveNav('#projects'); showMenu(false)}}>
+              <a href="#Projects - Section" className={activeNav === '#Projects - Section' ? "nav__link active-link" : "nav__link"} onClick={() => {setActiveNav('#projects'); showMenu(false)}}>
                 <i className="uil uil-folder nav__icon"></i>Projects
               </a>
             </li>
 
             <li className="nav__item" >
-              <a href="#contact" className={activeNav === '#contact' ? "nav__link active-link" : "nav__link"} onClick={() => {setActiveNav('#contact'); showMenu(false)}}>
+              <a href="#Contact - Section" className={activeNav === '#Contact - Section' ? "nav__link active-link" : "nav__link"} onClick={() => {setActiveNav('#contact'); showMenu(false)}}>
                 <i className="uil uil-estate nav__icon"></i>Contact
               </a>
             </li>
