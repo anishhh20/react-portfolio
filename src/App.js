@@ -26,7 +26,7 @@ function App() {
   window.onload = fadeOut;
   
   function fadeOut() {
-      setInterval(loader, 500);
+    setInterval(loader, 100);
   }
   function loader() {
     document.querySelector('.loading').classList.add('fade-out');

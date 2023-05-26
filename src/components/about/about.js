@@ -18,7 +18,11 @@ const About = () => {
 
         <div className='about__container container grid'>
 
-            <LazyLoadImage src={AboutImg} className='about__img'data-aos="zoom-in" alt='About_Image' />
+            <div className='about__img-div'>
+            <LazyLoadImage src={AboutImg} loading="lazy" effect="blur" className='about__img' data-aos="zoom-in" alt='About_Image' />
+
+            </div>
+
 
             <div className='about__data'>
 

@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import { images } from './photo_data'
-import { Gallery } from "react-grid-gallery";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import Masonry, {ResponsiveMasonry}  from "react-responsive-masonry"
 
 const Info = () => {
 
@@ -64,13 +65,20 @@ const Info = () => {
             <i className="uil uil-angle-up photographer__box-top button__icon "></i>
           </a>
 
-          <Gallery images={images} enableImageSelection= {false} rowHeight={480} margin={30} /> 
+          <ResponsiveMasonry
+                columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
+            >
+            <Masonry className='image_grid' gutter="0px">
+              {images.map(({ src }) => (
+                <div>
+                  <LazyLoadImage src={src} loading="lazy" effect="blur"/>
+                </div>
+              ))}
+            </Masonry>
+          </ResponsiveMasonry>
+
         </div>
-
-          
-  
       </div>
-
     </>
 
   )
