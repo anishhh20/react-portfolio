@@ -4,6 +4,7 @@ import Data from './data'
 import ScrollDown from './scrollDown'
 import Particles from '.././particles/particless';
 import './home.css'
+import Tilt from 'react-parallax-tilt';
 
 function Home() {
   return (
@@ -22,7 +23,10 @@ function Home() {
 
               <Social />
 
-              <div className='home__img' alt="Home_Image"></div>
+              <Tilt perspective={5000} scale={1} gyroscope={true} transitionSpeed={5000}>
+                <div className='home__img' alt="Home_Image"></div>
+              </Tilt>
+
 
               <Data />
 

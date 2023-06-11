@@ -5,7 +5,7 @@ const ScrollDown = () => {
     
     <div className="home__scroll">
 
-      <a href="#About - Section" className="home__scroll-button button--flex">
+      <a href="#About - Section" className="home__scroll-button   " style={{display:'inline-flex',alignItems: 'center'}}>
           <svg
               width="32px"
               height="32px"

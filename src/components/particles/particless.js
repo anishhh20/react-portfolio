@@ -10,18 +10,6 @@ const Particless = () => {
 
   };
 
-  var color = "";
-  var theme = document.body.className;
-
-  if(theme === "light-theme"){
-    color = "#000";
-    console.log("lg")
-  }else{
-    color = "#fff";
-    console.log("dgg")
-  }
-
-
   return (
 
     <Particles
@@ -78,10 +66,10 @@ const Particless = () => {
             //particles CSS
             particles: {
                 color: {
-                    value: color,
+                    value: "#000",
                 },
                 links: {
-                    color: color,
+                    color: "#000",
                     distance: 100,
                     enable: true,
                     opacity: 0.3,
@@ -105,7 +93,7 @@ const Particless = () => {
                         enable: true,
                         area: 1000,
                     },
-                    value: 40,
+                    value: 50,
                 },
                 opacity: {
                     value: 0.3,

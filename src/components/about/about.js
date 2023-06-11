@@ -29,10 +29,18 @@ const About = () => {
               <Info />
 
               <p className='about__description'>
-                Fresher and Enthusiastic to learn new technologies and skills. I'm new to the IT 🖥 field. I've built some projects and have good programming knowledge. I need support to build a better version of myself with extra good programming knowledge. I've seen so many people's ideas floating around the Internet that I've decided to contribute my own. wants to be a part of the software development industry.
+                Strong passion for staying up-to-date with the latest trends and technologies in my field. I've developed expertise in web development and gained valuable experience as a Web Developer. I acknowledge that there is still much more for me to learn and grow in my profession.
+              </p>
+              <p className='about__description'>
+                I'm a fresher with a strong enthusiasm for learning new technologies and skills. Although I'm new to the IT field, I have already built some projects and possess good programming knowledge. I'm eager to enhance my programming skills. I've come across numerous innovative ideas online, and now I'm inspired to contribute.
               </p>
 
-              <a download="Resume" href={Resume} className='button button--flex'>Download CV{" "}<i class="uil uil-file-alt button__icon"></i></a>
+              <a class="fancy" download="Resume" href={Resume} >
+                <span class="top-key"></span>
+                <span class="text">Download CV <i class="uil uil-file-alt button__icon"></i></span>
+                <span class="bottom-key-1"></span>
+                <span class="bottom-key-2"></span>
+              </a>
 
             </div>
 

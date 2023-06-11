@@ -1,12 +1,12 @@
 .contact{
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 .contact__container{
     display: grid;
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
     column-gap: 6rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2.5rem;
 }
 
 .contact__info{
@@ -118,10 +118,27 @@
     resize: none;
 }
 
+.send__button {
+    color: var(--text);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid var(--text-color);
+    background: var(--background-color);
+    box-shadow: 3px 3px var(--text-color);
+    cursor: pointer;
+    margin: .4rem 0;
+}
+
+.send__button:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
 
 @media screen and (max-width: 992px) {
     .contact__container{
         column-gap: 3rem;
+        padding-bottom: 0;
     }
 }
 
@@ -140,8 +157,8 @@
 
 @media screen and (max-width: 576px) {
     .contact__info {
-        grid-template-columns: 1fr;
-        row-gap: 3rem;
+        grid-template-columns: 280px;
+        row-gap: 2.5rem;
     }
     .contact__form {
         margin: 0 auto;
@@ -150,6 +167,9 @@
 }
 
 @media screen and (max-width: 350px) {
+    .contact__info {
+        grid-template-columns: 1fr;
+    }
     .contact__form {
         margin: 0 auto;
         padding: 0 4rem;
@@ -158,8 +178,8 @@
         margin: 0 4rem;
     }
     .contact__form-input{
-        height: 50%;
-        padding: 1.2rem;
+        height: 100%;
+        padding: 1rem;
     }
     ::placeholder{
         font-size: 0.8rem;

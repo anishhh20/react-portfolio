@@ -5,7 +5,7 @@
 .qualification__tabs{
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .qualification__button{
@@ -26,7 +26,7 @@
 
 .qualification__active{
     color: var(--dark-color);
-    font-weight: 500;
+    font-weight: 530;
 }
 
 .qualification__sections{
@@ -83,17 +83,30 @@
 
 /* Media Queries */
 
-@media screen and (max-width: 550px){
-    .qualification__sections{
-        grid-template-columns: initial;
+@media screen and (max-width: 992px) {
+    .qualification__container{
+        margin: 0 auto;
     }
-    .qualification__content {
-        margin: 2rem !important;
+}
+
+@media screen and (max-width: 768px) {
+    .qualification__container {
+        margin: 0 1rem;
     }
     
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 576px){
+    .qualification__sections{
+        grid-template-columns: initial ;
+    }
+    .qualification__content {
+        margin: 0 2.5rem !important;
+    }
+    
+}
+
+@media screen and (max-width: 380px) {
     .qualification__data{
         gap: 0.5rem;
     }

@@ -50,11 +50,12 @@
 }
 
 .about__description{
-    padding: 0 4rem 20px 0;
+    padding: 0 .4rem 10px 0;
     color: var(--text);
     background-color: var(--glass-effect);
-    padding: 1rem;
     border-radius: 1rem;
+    text-indent: 30px;
+    text-align: justify;
 }
 
 .photographer {
@@ -124,7 +125,7 @@
 }
 
 .image_grid img {
-    padding: 25px;
+    padding: 25px 25px 6px 25px;
     width: 80%;
     height: 80%;
 }
@@ -150,6 +151,9 @@
     .about__description{
         padding: 0 5rem;
     }
+    .fancy{
+        float: none !important;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -167,7 +171,7 @@
 
 @media screen and (max-width: 350px){
     .about__info {
-        grid-template-columns: repeat(1, 150px);
+        grid-template-columns: repeat(2, 120px);
     }
     .about__description{
         padding: 1rem !important;

@@ -47,56 +47,68 @@ export const images = [
 
    {
       src: photo32,
+      title : "GOA ⛪",
    },
    {
       src: photo33,
+      title : "GOA 🛣️🌴",
    },
    {
       src: photo34,
+      title : "GOA 🌊",
    },
 
    {
       src: photo35,
+      title : "🌸",
    },
    {
       src: photo36,
+      title : "GOA 💙",
    },
    {
       src: photo37,
+      title : "SKY ☁️",
    },
 
    {
-      src: photo38,
-   },
-   {
       src: photo39,
+      title : "",
    },
    {
       src: photo40,
+      title : "🐶",
    },
 
    {
       src: photo41,
+      title : "🙏📿",
    },
    {
       src: photo42,
+      title : "🙏📿",
    },
    {
       src: photo43,
+      title : "🌵",
    },
 
    {
       src: photo44,
+      title : "🌫️",
    },
       
    {
       src: photo31,
+      title : "🌙",
    },
    {
       src: photo1,
+      title : "🚆",
    },
    {
       src: photo2,
+      title : "KOKAN 🌴",
    },
 
    {
@@ -104,53 +116,67 @@ export const images = [
    },
    {
       src: photo4,
+      title : "🌥️",
    },
    {
       src: photo5,
+      title : "RAJGAD 🧡",
    },
 
    {
       src: photo6,
+      title : "RAJGAD 🧡",
    },
    {
       src: photo7,
+      title : "RAJGAD 🧡",
    },
    {
       src: photo8,
+      title : "RAJGAD 🧡",
    },
 
    {
       src: photo9,
+      title : "RAJGAD 🧡",
    },
    {
       src: photo10,
+      title : "RAJGAD 🧡",
    },
    {
       src: photo11,
+      title : "FOGGY ❄️",
    },
 
    {
       src: photo12,
+      title : "FOGGY ❄️",
    },
    {
       src: photo13,
+      title : "FOGGY ❄️",
    },
    {
       src: photo14,
+      title : "TAMHINI GHAT ❤️",
    },
 
    {
       src: photo15,
+      title : "FOGGY ❄️",
    },
    {
       src: photo16,
    },
    {
       src: photo17,
-   },
+      title : "INTO THE NATURE ",
+   }, 
 
    {
       src: photo18,
+      title : "LONAVALA",
    },
    {
       src: photo19,

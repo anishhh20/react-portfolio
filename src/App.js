@@ -7,6 +7,7 @@ import Qualification from './components/qualification/qualification';
 import Project from './components/projects/project';
 import Contact from './components/contact/contact';
 import ScrollTop from './components/scrollTop/scrollTop';
+import Footer from './components/footer/footer';
 import './App.css'
 
 import LoadingImg from './assests/loading.gif'
@@ -16,18 +17,15 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init({
   duration: 1000,
-  offset: 80,
+  offset: 60,
 });
 
 
 function App() { 
 
   //Loading Screen
-  window.onload = fadeOut;
+  window.onload = loader;
   
-  function fadeOut() {
-    setInterval(loader, 100);
-  }
   function loader() {
     document.querySelector('.loading').classList.add('fade-out');
   }
@@ -39,6 +37,7 @@ function App() {
     <>
 
       <div class="loading">
+        <h1 className="load__text">Wait.. It will worth it!</h1>
         <img draggable="false" src={LoadingImg} alt="Loading..." />
       </div>
 
@@ -52,6 +51,7 @@ function App() {
         <Qualification />
         <Project />
         <Contact />
+        <Footer />
 
       </main>
       <ScrollTop/>
